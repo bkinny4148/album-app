@@ -1,0 +1,17 @@
+#photo-display {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#photo-display img {
+  width: 100px;
+  height: 100px;
+
+  display: block;
+  padding: 20px;
+  box-sizing: border-box;
+}

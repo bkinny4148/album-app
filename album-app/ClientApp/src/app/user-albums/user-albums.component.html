@@ -1,0 +1,6 @@
+<h1>Albums</h1>
+
+<p *ngIf="!albums"><em>Loading...</em></p>
+<div id="album-list" *ngFor="let album of albums">
+  <li><a routerLink="/albums/{{album.id}}">ID: {{album.id}}. Title: {{album.title}}</a></li>
+</div>

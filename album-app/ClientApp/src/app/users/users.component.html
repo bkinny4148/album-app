@@ -1,0 +1,6 @@
+<h1>Users</h1>
+
+<p *ngIf="!users"><em>Loading...</em></p>
+<div id="user-list" *ngFor="let user of users">
+  <li><a routerLink="/users/{{user.id}}">ID: {{user.id}}. Name: {{user.name}}</a></li>
+</div>
